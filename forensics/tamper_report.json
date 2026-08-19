@@ -1,0 +1,9 @@
+{
+  "test": "Tamper Detection",
+  "original_artifact": "api_call_log.json",
+  "tampered_artifact": "api_call_log_tampered.json",
+  "original_sha256": "f8b17b011870de472db0b2a0ea44492cbf04f9ce78a087c3ebca51109649b5df",
+  "tampered_sha256": "98b71f728914793c5cb09ac4c42acfccc3435f591ba31c1b82f73150e72adbdf",
+  "tamper_detected": true,
+  "status": "TAMPERED"
+}

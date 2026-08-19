@@ -1,0 +1,31 @@
+{
+  "case_id": "CASE-001",
+  "collection_status": "COMPLETED",
+  "collector": "automated-forensics-collector",
+  "artifacts": [
+    {
+      "artifact": "memory_snapshot.txt",
+      "triggered_by": "automated-forensics-collector",
+      "collected_at": "2026-08-19T11:14:25.772923+00:00",
+      "source_system": "local-test-system",
+      "sha256": "52a855acbac3e5ca0d7bb1bf6a50f0da823a5b1933fadfc9b8fb32ff236dd9e3",
+      "storage_location": "C:\\Users\\Mark\\Desktop\\detection-program-v2\\forensics\\evidence\\memory_snapshot.txt"
+    },
+    {
+      "artifact": "process_list.txt",
+      "triggered_by": "automated-forensics-collector",
+      "collected_at": "2026-08-19T11:14:25.772923+00:00",
+      "source_system": "local-test-system",
+      "sha256": "518001b5f5a19513a0fa2a3c91189c501c81c9a1b85757c667bcfbbad2b3c186",
+      "storage_location": "C:\\Users\\Mark\\Desktop\\detection-program-v2\\forensics\\evidence\\process_list.txt"
+    },
+    {
+      "artifact": "api_call_log.json",
+      "triggered_by": "automated-forensics-collector",
+      "collected_at": "2026-08-19T11:14:25.772923+00:00",
+      "source_system": "local-test-system",
+      "sha256": "f8b17b011870de472db0b2a0ea44492cbf04f9ce78a087c3ebca51109649b5df",
+      "storage_location": "C:\\Users\\Mark\\Desktop\\detection-program-v2\\forensics\\evidence\\api_call_log.json"
+    }
+  ]
+}
