@@ -1,0 +1,27 @@
+{
+  "generated_at": "2026-08-19T08:08:05.292871Z",
+  "total_techniques": 3,
+  "results": [
+    {
+      "technique_id": "T1059",
+      "technique_name": "Command and Scripting Interpreter",
+      "emulation_status": "SIMULATED",
+      "detection_status": "PENDING",
+      "timestamp": "2026-08-19T08:08:05.292737Z"
+    },
+    {
+      "technique_id": "T1087",
+      "technique_name": "Account Discovery",
+      "emulation_status": "SIMULATED",
+      "detection_status": "PENDING",
+      "timestamp": "2026-08-19T08:08:05.292762Z"
+    },
+    {
+      "technique_id": "T1518",
+      "technique_name": "Software Discovery",
+      "emulation_status": "SIMULATED",
+      "detection_status": "PENDING",
+      "timestamp": "2026-08-19T08:08:05.292767Z"
+    }
+  ]
+}
