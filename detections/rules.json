@@ -11,6 +11,12 @@
       "technique_id": "T1087",
       "name": "Account Discovery Detection",
       "enabled": true
+    },
+    {
+      "rule_id": "DET-T1518-001",
+      "technique_id": "T1518",
+      "name": "Software Discovery Detection",
+      "enabled": true
     }
   ]
 }
