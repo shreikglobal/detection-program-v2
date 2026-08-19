@@ -1,0 +1,29 @@
+{
+  "noise_budget_enforced": true,
+  "coverage_debt": 2,
+  "coverage_debt_threshold": 1,
+  "coverage_debt_alert": true,
+  "rules": [
+    {
+      "rule_id": "DET-T1059-001",
+      "false_positive_rate": 0.02,
+      "noise_budget": 0.05,
+      "status": "ACTIVE",
+      "page_on_call": false
+    },
+    {
+      "rule_id": "DET-T1087-001",
+      "false_positive_rate": 0.08,
+      "noise_budget": 0.05,
+      "status": "DRAFT",
+      "page_on_call": true
+    },
+    {
+      "rule_id": "DET-T1518-001",
+      "false_positive_rate": 0.01,
+      "noise_budget": 0.05,
+      "status": "ACTIVE",
+      "page_on_call": false
+    }
+  ]
+}

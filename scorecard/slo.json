@@ -1,0 +1,13 @@
+{
+  "slo": {
+    "mttd_target_seconds": 300,
+    "noise_budget": {
+      "max_false_positive_rate_weekly": 0.05,
+      "action_on_budget_exceeded": "DRAFT",
+      "page_on_budget_exceeded": true
+    },
+    "coverage_debt": {
+      "alert_threshold": 1
+    }
+  }
+}

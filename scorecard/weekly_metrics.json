@@ -1,0 +1,18 @@
+{
+  "week": "2026-W34",
+  "rules": [
+    {
+      "rule_id": "DET-T1059-001",
+      "false_positive_rate": 0.02
+    },
+    {
+      "rule_id": "DET-T1087-001",
+      "false_positive_rate": 0.08
+    },
+    {
+      "rule_id": "DET-T1518-001",
+      "false_positive_rate": 0.01
+    }
+  ],
+  "coverage_debt": 2
+}
