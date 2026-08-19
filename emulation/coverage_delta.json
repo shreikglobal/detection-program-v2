@@ -1,12 +1,13 @@
 {
   "baseline_coverage": 66.67,
-  "current_coverage": 66.67,
-  "coverage_change_percentage_points": 0.0,
-  "newly_detected": [],
+  "current_coverage": 100.0,
+  "coverage_change_percentage_points": 33.33,
+  "newly_detected": [
+    "T1518"
+  ],
   "newly_missed": [],
   "unchanged": [
     "T1059",
-    "T1087",
-    "T1518"
+    "T1087"
   ]
 }

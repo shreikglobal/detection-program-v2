@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-08-19T08:33:01.082870+00:00",
+  "generated_at": "2026-08-19T10:01:15.968807+00:00",
   "total_techniques": 3,
-  "detected": 2,
-  "missed": 1,
-  "coverage_percentage": 66.67,
+  "detected": 3,
+  "missed": 0,
+  "coverage_percentage": 100.0,
   "results": [
     {
       "technique_id": "T1059",
       "technique_name": "Command and Scripting Interpreter",
       "emulation_status": "SIMULATED",
       "detection_status": "DETECTED",
-      "timestamp": "2026-08-19T08:33:01.082825+00:00"
+      "timestamp": "2026-08-19T10:01:15.968770+00:00"
     },
     {
       "technique_id": "T1087",
       "technique_name": "Account Discovery",
       "emulation_status": "SIMULATED",
       "detection_status": "DETECTED",
-      "timestamp": "2026-08-19T08:33:01.082854+00:00"
+      "timestamp": "2026-08-19T10:01:15.968794+00:00"
     },
     {
       "technique_id": "T1518",
       "technique_name": "Software Discovery",
       "emulation_status": "SIMULATED",
-      "detection_status": "MISSED",
-      "timestamp": "2026-08-19T08:33:01.082859+00:00"
+      "detection_status": "DETECTED",
+      "timestamp": "2026-08-19T10:01:15.968798+00:00"
     }
   ]
 }
