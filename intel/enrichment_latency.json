@@ -1,0 +1,10 @@
+{
+  "generated_at": "2026-08-19T10:52:19.821669+00:00",
+  "alerts_tested": 3,
+  "enrichment_hits": 3,
+  "enrichment_hit_percentage": 100.0,
+  "latency_requirement_seconds": 30,
+  "p50_latency_ms": 0.174,
+  "p99_latency_ms": 0.245,
+  "within_30_seconds": true
+}

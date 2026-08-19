@@ -1,0 +1,44 @@
+[
+  {
+    "alert_id": "ALERT-001",
+    "rule_id": "DET-T1059-001",
+    "ioc": "198.51.100.23",
+    "timestamp": "2026-08-19T10:52:19.821060+00:00",
+    "threat_intelligence": {
+      "match": true,
+      "source": "MISP",
+      "confidence": 0.92,
+      "adversary_group": "Scattered Spider",
+      "campaign": "Cloud Credential Access Campaign",
+      "enriched_at": "2026-08-19T10:52:19.821319+00:00"
+    }
+  },
+  {
+    "alert_id": "ALERT-002",
+    "rule_id": "DET-T1087-001",
+    "ioc": "203.0.113.50",
+    "timestamp": "2026-08-19T10:52:19.821333+00:00",
+    "threat_intelligence": {
+      "match": true,
+      "source": "MISP",
+      "confidence": 0.78,
+      "adversary_group": "FIN7",
+      "campaign": "Financial Infrastructure Campaign",
+      "enriched_at": "2026-08-19T10:52:19.821497+00:00"
+    }
+  },
+  {
+    "alert_id": "ALERT-003",
+    "rule_id": "DET-T1518-001",
+    "ioc": "192.0.2.100",
+    "timestamp": "2026-08-19T10:52:19.821518+00:00",
+    "threat_intelligence": {
+      "match": true,
+      "source": "MISP",
+      "confidence": 0.15,
+      "adversary_group": "Unknown",
+      "campaign": "None",
+      "enriched_at": "2026-08-19T10:52:19.821654+00:00"
+    }
+  }
+]

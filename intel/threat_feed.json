@@ -1,0 +1,30 @@
+{
+  "feed_name": "Mock Threat Intelligence Feed",
+  "feed_version": "1.0",
+  "indicators": [
+    {
+      "ioc": "198.51.100.23",
+      "ioc_type": "ipv4",
+      "confidence": 0.92,
+      "adversary_group": "Scattered Spider",
+      "campaign": "Cloud Credential Access Campaign",
+      "source": "MISP"
+    },
+    {
+      "ioc": "203.0.113.50",
+      "ioc_type": "ipv4",
+      "confidence": 0.78,
+      "adversary_group": "FIN7",
+      "campaign": "Financial Infrastructure Campaign",
+      "source": "MISP"
+    },
+    {
+      "ioc": "192.0.2.100",
+      "ioc_type": "ipv4",
+      "confidence": 0.15,
+      "adversary_group": "Unknown",
+      "campaign": "None",
+      "source": "MISP"
+    }
+  ]
+}
