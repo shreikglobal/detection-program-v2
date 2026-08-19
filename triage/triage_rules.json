@@ -1,0 +1,11 @@
+{
+  "thresholds": {
+    "escalate_above": 0.8,
+    "suppress_below": 0.3
+  },
+  "actions": {
+    "escalate": "ESCALATE",
+    "suppress": "SUPPRESS",
+    "review": "HUMAN_REVIEW"
+  }
+}
