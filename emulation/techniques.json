@@ -1,0 +1,19 @@
+{
+  "techniques": [
+    {
+      "id": "T1059",
+      "name": "Command and Scripting Interpreter",
+      "enabled": true
+    },
+    {
+      "id": "T1087",
+      "name": "Account Discovery",
+      "enabled": true
+    },
+    {
+      "id": "T1518",
+      "name": "Software Discovery",
+      "enabled": true
+    }
+  ]
+}
