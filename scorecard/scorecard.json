@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-19T11:29:55.111342+00:00",
+  "report": "Detection Program Health Scorecard",
+  "mttd_30_day_trend": {
+    "status": "DATA_PENDING",
+    "note": "30-day historical MTTD data not yet available"
+  },
+  "noise_budget_consumption": [
+    {
+      "rule_id": "DET-T1059-001",
+      "false_positive_rate": 0.02,
+      "noise_budget": 0.05,
+      "budget_consumption_percent": 40.0,
+      "status": "ACTIVE"
+    },
+    {
+      "rule_id": "DET-T1087-001",
+      "false_positive_rate": 0.08,
+      "noise_budget": 0.05,
+      "budget_consumption_percent": 160.0,
+      "status": "DRAFT"
+    },
+    {
+      "rule_id": "DET-T1518-001",
+      "false_positive_rate": 0.01,
+      "noise_budget": 0.05,
+      "budget_consumption_percent": 20.0,
+      "status": "ACTIVE"
+    }
+  ],
+  "coverage_debt": {
+    "current": 2,
+    "threshold": 1,
+    "alert": true
+  },
+  "enrichment": {
+    "hit_rate_percent": 100.0,
+    "p50_latency_ms": 0.174,
+    "p99_latency_ms": 0.245,
+    "within_30_seconds": true
+  },
+  "triage": {
+    "alerts_processed": 3,
+    "escalated": 1,
+    "human_review": 1,
+    "suppressed": 1,
+    "accuracy_status": "BASELINE_CAPTURED"
+  },
+  "forensics": {
+    "verification_status": "VERIFIED",
+    "artifacts_verified": 3,
+    "collection_success_rate_percent": 100.0
+  }
+}
