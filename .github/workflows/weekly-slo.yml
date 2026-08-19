@@ -1,0 +1,28 @@
+name: Weekly Detection SLO Check
+
+on:
+  schedule:
+    - cron: "0 9 * * 1"
+  workflow_dispatch:
+
+jobs:
+  slo-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run SLO evaluation
+        run: python scorecard/evaluate_slo.py
+
+      - name: Upload SLO report
+        uses: actions/upload-artifact@v4
+        with:
+          name: weekly-slo-report
+          path: scorecard/slo_report.json
